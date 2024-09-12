@@ -164,6 +164,7 @@ import { HeaderComponent } from './common/header/header.component';
 import { UnitDropdownComponent } from './common/header/unit-dropdown/unit-dropdown.component';
 import { TaskDropdownComponent } from './common/header/task-dropdown/task-dropdown.component';
 import { SplashScreenComponent } from './home/splash-screen/splash-screen.component';
+import { TaskILOAlignmentModalComponent } from './tasks/task-ilo-alignment/modals/task-ilo-alignment-modal/task-ilo-alignment-modal';
 
 @NgModule({
   // Components we declare
@@ -221,6 +222,7 @@ import { SplashScreenComponent } from './home/splash-screen/splash-screen.compon
     UnitDropdownComponent,
     TaskDropdownComponent,
     SplashScreenComponent,
+    TaskILOAlignmentModalComponent
   ],
   // Module Imports
   imports: [
